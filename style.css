@@ -10,6 +10,9 @@ body{
     width: 50%;
     padding: 30px;
 }
+.halfwidthtitle {
+    margin-left: 35px;
+}
 .halfwidthtitle h2::before {
     content: "";
     position: absolute;
@@ -46,17 +49,21 @@ body{
 }
 
 .halfwidth1 img {
-    width: 43%;
-    margin-top: 46px;
+    width: 76%;
+    margin-top: 70px;
+    margin-left: 49px;
 }
 .halfwidthtitle h1 {
-    font-size: 32px;
+    font-size: 55px;
 }
 
-.halfwidthtitle p {font-size: 14px;margin-bottom: 32px;}
+.halfwidthtitle p {font-size: 15px;margin-bottom: 39px;line-height: 30px;}
 .successfuldetails{
     display: flex;
     padding: 51px;
+}
+.succes{
+    margin-bottom: 35px;
 }
 .sucdeinfo1 img{
  width: 20%;
@@ -136,4 +143,130 @@ span.year {
 
 .succestitle h1 {
     font-size: 34px;
+}
+.team{
+    display: flex;
+    margin-bottom:60px;
+}
+.pic{
+    width: 50%;
+}
+.pic img {
+    width: 50%;
+    margin-left: 177px;
+}
+
+.detils {
+    width: 50%;
+}
+
+.detils h1 {
+    font-size: 54px;
+    font-family: bold;
+    margin-top: -3px;
+}
+
+.detils p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.detils a{
+    top:5px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #16A295;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.detils1 {
+    width: 50%;
+    margin-left: 97px;
+}
+
+.detils1 h1 {
+    font-size: 63px;
+    font-family: bold;
+    margin-top: -3px;
+}
+
+.detils1 p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.detils1 a{
+    top:5px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #16A295;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.mobilesection{
+    display: flex;
+}
+.mobilepic{
+    width: 50%;
+}
+.devicesinfom {
+    width: 50%;
+    margin-right: 85px;
+    margin-top: -36px;
+}
+
+.mobilepic img {
+    width: 50%;
+    margin-left: 182px;
+}
+
+.devicesinfom a{
+    top:5px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #16A295;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.devicesinfom h1 {
+    font-size: 48px;
+    font-family: inherit;
+}
+
+.devicesinfom p {
+    color: #161414;
+    line-height: 38px;
+    margin-bottom: 45px;
+}
+.container{
+    
+    text-align: center;
+    padding: 20px 20px 20px 85px;
+}
+.last{
+    background-color: black;
+
+}
+.copyrighttext{
+    color: white;
+    margin-bottom: 20px;
+}
+.design {
+    color: rgb(245, 245, 245);
+    margin-right: 20px;
+    
 }
