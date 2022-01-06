@@ -13,14 +13,14 @@ body{
 .halfwidthtitle {
     margin-left: 35px;
 }
-.halfwidthtitle h2::before {
+.halfwidthtitle h1::before {
     content: "";
+    height: 113px;
+    left: 92px;
     position: absolute;
-    bottom: 0;
-    background: #5b5200;
-    width: 79px;
-    border-bottom: 4px solid ;
-    left: 46%;
+    background:#14b5f3;
+    width: 3px;
+    top: 128px;
     transform: translate(3%);
     -webkit-transform: translate(3%);
     -moz-transform: translate(3%);
